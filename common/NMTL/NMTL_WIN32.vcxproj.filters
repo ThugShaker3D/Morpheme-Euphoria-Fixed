@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include\NMTL" />
+    <Filter Include="include" />
+    <Filter Include="src" />
+    <Filter Include="include\NMTL\_morphemeconnect_hook">
+      <UniqueIdentifier>{5ff760b9-0243-4dd7-99ad-8bb1c1626e2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\NMTL\algorithm.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\allocator.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\bidirectional_ptrmap.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\container_destroy_method.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\defs.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\deque.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\fixed_free_list.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\hashfunc.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\hashmap_dense_dynamic.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\hashmap_packed_chain.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\intrusive_double_list.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\intrusive_single_list.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\list.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\pod_stack.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\pod_vector.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\set.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\stack.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\string.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\type_utils.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\unique_vector.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\vector.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\vector_iterators.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NMTL\vector_preallocated.h">
+      <Filter>include\NMTL</Filter>
+    </ClInclude>
+    <ClCompile Include="src\nmtl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClInclude Include="include\_morphemeconnect_hook\morphemeConnectCore_magicnums.h">
+      <Filter>include\NMTL\_morphemeconnect_hook</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_morphemeconnect_hook.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

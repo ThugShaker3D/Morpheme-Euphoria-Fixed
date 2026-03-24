@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\common",
+    "\\morpheme",
+    "\\morpheme\\samples",
+    "\\morpheme\\samples\\resources",
+    "\\morpheme\\samples\\resources\\scripts",
+    "\\morpheme\\tools",
+    "\\morpheme\\utils",
+    "\\morpheme\\utils\\euphoriaComms2"
+  ],
+  "SelectedNode": "\\morpheme\\utils\\euphoriaComms2\\euphoriaComms2_WIN32.sln",
+  "PreviewInSolutionExplorer": false
+}
